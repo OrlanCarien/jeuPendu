@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+#divForm{
+  position:absolute;
+  width: 100%;
+  height:100%;
+}
+#form{
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  top: 35%;
+}
+.score{
+  position: absolute;
+  right: 15%;
+  top: 10%;
+}
+.alreadyClicked{
+  background-color: grey;
+}
+.firstRange{
+  position: relative;
+  left: 45%;
+}
+.secondRange{
+  position: relative;
+  left: 50%;
+  top: -468px;
+}
+.lettre {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2em;
+  margin-left:2px;
+  margin-right:2px;
+}
+.entree {
+  cursor: pointer;
+  
+  width:20px;
+  height:20px;
+  border: solid grey;
+  margin:10px;
+  padding-left:2px;
+  padding-right:2px;
+}
+.entree :target{
+  background-color: grey;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
